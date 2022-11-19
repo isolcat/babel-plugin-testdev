@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-dev-debug dev 1`] = `
+"const a = 10;
+const b = 20;
+console.log(a + b);
+if (DEBUG) {
+  console.log("Hello World");
+}"
+`;
+
+exports[`babel-plugin-dev-debug prod 1`] = `
+"const a = 10;
+const b = 20;
+console.log(a + b);
+if (DEBUG) {
+  console.log("Hello World");
+}"
+`;
