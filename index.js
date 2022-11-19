@@ -15,8 +15,7 @@ module.exports = ({ types: t }) => {
                 const parentIsIf = t.isIfStatement(path.parentPath)
                 const isDebug = path.node.value === "TEST"
                 if (isDebug && parentIsIf) {
-                    // 判断在生产环境中移除掉if("DEBUG")中的内容
-                    if (ProcessingInstruction.env.NODE_ENV === "production") {
+                    if (process.env.NODE_ENV === "production") {
                         // 调用方法remove删除path
                         path.parentPath.remove()
                     }
