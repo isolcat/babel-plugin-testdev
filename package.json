@@ -1,5 +1,5 @@
 {
-    "name": "babel-plugin-devtest",
+    "name": "babel-plugin-testdev",
     "version": "0.9.1",
     "description": "The babel plugin for hiding your test code",
     "main": "index.js",
