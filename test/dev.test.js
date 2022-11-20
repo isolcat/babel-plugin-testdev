@@ -9,7 +9,7 @@ const inputCode = `
         }
         `;
 
-describe("babel-plugin-devTest", () => {
+describe("babel-plugin-testdev", () => {
     it("dev", () => {
         // input
         process.env.NODE_ENV = "development";
