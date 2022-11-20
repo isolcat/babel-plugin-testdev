@@ -1,4 +1,4 @@
-# 🐱babel-plugin-devtest
+# 🐱babel-plugin-testdev
 
 The babel plugin for hiding your test code
 
@@ -11,7 +11,7 @@ You may wish to use the plug-in, you do not need any learning costs to solve som
 ## Install
 
 ```shell
-pnpm add babel-plugin-devtest
+pnpm add babel-plugin-testdev
 ```
 
 ## Configure
@@ -21,7 +21,7 @@ You just need to do this：
 ```js
 // babel.config.js
 module.exports = {
-  plugins: ["devtest"],
+  plugins: ["testdev"],
 };
 ```
 
